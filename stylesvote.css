@@ -1,0 +1,73 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; 
+}
+
+h2.category-heading {
+    text-align: left; 
+    padding-left: 20px; 
+    margin: 10px;
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+h3 {
+    margin-top: 30px; 
+    font-size: 26px; 
+    text-align: center; 
+    font-weight: bold; 
+}
+
+h3.voting-result-heading {
+    text-align: center; 
+    margin: 10px auto;
+    font-size: 32px; 
+    font-weight: bold; 
+    color: #3498db;
+}
+
+h1 {
+    text-align: justify;
+    margin: 20px;
+    font-size: 36px; 
+    font-weight: bold; 
+}
+
+table {
+    border-collapse: separate;
+    margin: 20px auto;
+    width: 50%;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 25px;
+    background-color: #d5ebff;
+    font-size: 22px; /* Ukuran font untuk header tabel */
+    font-weight: bold; /* Membuat font menjadi bold */
+}
+
+td {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #d5ebff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px; /* Ukuran font untuk sel tabel */
+}
+
+button {
+    background-color: rgb(112, 162, 227);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 18px; /* Ukuran font untuk tombol */
+    font-weight: bold; /* Membuat font menjadi bold */
+}
+
+button:hover {
+    background-color: rgb(80, 130, 200);
+}

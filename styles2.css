@@ -1,0 +1,69 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: url('bbg.jpg');
+  margin: 0;
+  padding: 20px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+.login {
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  color: white;
+  border-radius: 35px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  backdrop-filter: brightness(50%);
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+  text-align: center;
+}
+form {
+  font-weight: bold;
+  display: block;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  gap: 1px;
+}
+
+label {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.3);
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  padding: 0px 20px;
+  border: none;
+  margin-bottom: 20px;
+  color: white;
+}
+button {
+  background: rgb(112, 162, 227);
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 40px;
+  border: none;
+  margin: 10px 0px;
+}

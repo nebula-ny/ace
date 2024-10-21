@@ -1,0 +1,62 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.candidate-photo {
+  width: 100px; /* Sesuaikan ukuran lebar sesuai kebutuhan */
+  height: 100px; /* Sesuaikan ukuran tinggi sesuai kebutuhan */
+  border-radius: 10%; /* Untuk membuat gambar berbentuk bulat */
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+h2 {
+  padding-left: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+table {
+  border-collapse: separate;
+  margin: 20px auto;
+  width: 50%;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 25px;
+  background-color: #d5ebff;
+}
+
+td {
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #d5ebff;
+  text-align: center;
+  font-weight: 600;
+}
+
+button {
+  background-color: rgb(112, 162, 227);
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(80, 130, 200);
+}
+
+.add{
+  padding: 20px;
+  margin: 0 auto;
+  width: calc(100% - 40px);
+  max-width: 400px;
+  display: block;
+  text-align: center;
+}
